@@ -1,0 +1,55 @@
+i.icon {
+    font-size: 2em;
+}
+
+nav {
+    position: absolute;
+}
+
+.ui.header {
+    margin-top: 7.0em;
+    padding-top: 40px;
+    position: relative;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+
+form {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+#delete {
+    display: inline;
+}
+
+.rounded {
+    /* width: 50%; */
+    position: absolute;
+}
+
+.description {
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    position: relative;
+    display: inline;
+}
+
+
+/* 
+.ui.header {
+    margin: 20px auto;
+    text-align: center;
+    padding: 50px;
+    display: block;
+}
+
+h2 {
+    margin: 20px auto;
+    padding: 50px;
+    display: block;
+} */

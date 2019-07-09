@@ -1,0 +1,32 @@
+<% include ./partials/header%>
+<div class="ui main text center page conatiner segment">
+    <div class="ui six wide coloumn huge header">
+        New Blog
+    </div>
+    <div class="cenetred">
+        
+
+    <form class="ui center form" action="/blogs" method="POST">
+        <div class="field">
+            <label>Title </label>
+            <input type="text" name="blog[title]" placeholder="Title">
+        </div>
+
+        <div class="field">
+            <label>Image </label>
+            <input type="text" name="blog[image]" placeholder="Image URL">
+        
+        </div>
+        <div class="field">
+            <label>Blog Content</label>
+            <textarea name="blog[body]"></textarea>
+        
+        </div>
+        
+        <input class="ui blue big inverted button" type="submit">
+    </form>
+
+    </div>
+</div>
+
+<% include ./partials/footer%>
